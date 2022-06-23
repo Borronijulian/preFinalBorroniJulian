@@ -1,0 +1,147 @@
+* {margin:0;padding:0;box-sizing: border-box;}
+@font-face {
+    font-family:Anton-regular ;
+    src: url(Anton-regular.ttf) format(truetype)
+}
+@font-face {
+    font-family: Antonio-light;
+    src: url(Antonio-light.ttf) format(truetype)
+}
+
+@font-face {
+    font-family:Antonio-Bold ;
+    src: url(Antonio-Bold.ttf) format(truetype)
+}
+
+@font-face {
+    font-family:Roboto ;
+    src: url(Roboto-regular.ttf) format(truetype)
+}
+
+body{ 
+    background-color: black;
+color: white;
+width: 100%;}
+
+
+header{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 1% 0 1%;
+
+       }
+
+    .baner img {width:100%
+
+    }
+
+
+nav{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width:50%;
+    
+   
+}
+
+nav a {padding: 1% 2% 1% 2% ;
+    color: white; 
+    text-decoration: none;
+    font-family: 'Antonio', sans-serif;
+    font-size: 20px;
+ }
+
+
+
+nav a:hover {
+    color:rgb(120, 34, 219);
+    background-color: white;
+    border-radius: 10px;
+    padding: 1% 2% 1% 2%;
+
+
+
+}
+
+
+h1{
+
+    color: rgb(120, 34, 219);
+    font-size: 45px;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+h2{
+
+    color: grey;
+    font-size: 30px;}
+    
+
+H3{ color: white;
+    font-size: 20px;
+     font-family: 'Roboto', sans-serif
+}
+
+
+.logo{
+width: 20vw;
+display: flex;
+justify-content: flex-start;
+
+}
+
+.espacio {height: 20px;}
+
+
+
+footer {display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1% 0 1%;
+
+}
+
+    .logodos{
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;}
+
+.logodos img{ width:30%; margin: ;
+}
+
+    .cajaredes{ 
+         display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width:100%;
+       
+        }
+
+        .cajaredes p{ font-size: 35px;
+        color: white;
+    }
+
+
+.iconos{ font-size: 50px;
+color:rgb(120, 34, 219) ;
+margin-right: 50px;}
+
+
+.respuesta{ margin-bottom: 500px;}
+
+
+
+
+
+
+
+
+
+
